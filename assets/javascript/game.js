@@ -1,8 +1,13 @@
 var targetNumber = 53;
 
+for(var i = 15; i < 100; i++)
+{
+    targetNumber = Math.floor(Math.random() * i) + 15;
+}
+
 $("#number-to-guess").text(targetNumber);
 
-var primes =$("#op");
+var primes =$("#ruby");
 
 var counter = 0;
 
@@ -14,7 +19,7 @@ for(var i = 0; i < numberOptions.length; i++)
 
     imageOp.addClass("img1");
 
-    imageOp.attr("src", "assets/images/OP1.png");
+    imageOp.attr("src", "assets/images/ruby.jpg");
 
     imageOp.attr("data-op", numberOptions[i]);
 
@@ -39,20 +44,3 @@ primes.on("click", ".img1", function()
         alert("You lose");
     }
 })
-
-// var increment = numberOptions[Math.round(Math.random())];
-
-// $("#op").on("click", ".img1", function()
-// {
-//     counter += increment;
-//     alert("Your new score is " + counter);
-
-//     if(counter === targetNumber)
-//     {
-//         alert("Your win");
-//     }
-//     else if(counter >= targetNumber)
-//     {
-//         alert("You lose!!!");
-//     }
-// });
