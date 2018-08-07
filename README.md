@@ -3,11 +3,11 @@
 Gem hunter game created with JQuery and Javascript. Objective is to collect gems to match total numbers with each gem having a specific number to add up. If it is a match you win but if your number is higher than the total number then you lose. 
 
 # Link to deployed site 
-[Gem Hunter](file:///Users/muhammadawais/Desktop/unit-4-game/index.html)
+[Gem Hunter](https://mawais54013.github.io/unit-4-game/)
 
 # Link to Portfolio
 
-[Portfolio](https://mawais54013.github.io/Bootstrap-Portfolio/)
+[Portfolio](https://mawais54013.github.io/Bootstrap-Portfolio/portfolio.html)
 
 # Images 
 
