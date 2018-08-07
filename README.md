@@ -7,7 +7,7 @@ Gem hunter game created with JQuery and Javascript. Objective is to collect gems
 
 # Link to Portfolio
 
-[Portfolio](https://mawais54013.github.io/Bootstrap-Portfolio/)
+[Portfolio](https://mawais54013.github.io/Bootstrap-Portfolio/portfolio.html)
 
 # Images 
 
