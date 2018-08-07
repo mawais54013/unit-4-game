@@ -1,8 +1,66 @@
+/* connect with google fonts to change font and color with border */
+.head1
+{
+    font-family: 'MedievalSharp', cursive;
+    color:rgb(160,160,160);
+    border-bottom: 5px solid gray;
+}
+/* connect with google fonts to change font and color with border */
+.head2
+{
+    font-family: 'MedievalSharp', cursive;
+    color:black;
+    border-bottom: 3px solid black;
+}
 h1{
     text-align: center;
 }
+/* Each image size will be the same to fit  */
 .img1
 {
     width: 200px;
     height: 100px;
+}
+.img2
+{
+    width: 200px;
+    height: 100px;
+}
+.img3
+{
+    width: 200px;
+    height: 100px;
+}
+.img4 
+{
+    width: 200px;
+    height: 100px;
+}
+/* style and size of grid 1  */
+#grid1
+{
+    border-style: ridge;
+    border-width: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: rgba(0,0,0,0.1);
+    height: 70%;
+    color: black;
+    border-radius: 5px;
+    font-family: 'IM Fell English', serif;
+}
+/* style and size of grid 2  */
+#grid2
+{
+    border-style: ridge;
+    border-width: 5px;
+    border-color: rgba(0,0,0,0.1);
+    color: black;
+    height: 70%;
+    border-radius: 5px;
+}
+/* to clearly show number to guess */
+#number-to-guess
+{
+    color: darkblue;
 }

@@ -10,39 +10,61 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/images/" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English|MedievalSharp" rel="stylesheet">
     
 
 </head>
-<body>
-    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
-
+<body id = "body1">
+    <!-- Header -->
+    <h1 class = "head1">Gem Hunter</h1>
+</br>
+</br>
+<!-- Created a row and column using bootstrap -->
     <div class = "container">
             <div class = "row">
-
-                 <div class="row">
-                        <div class="col-sd">
+                <!-- Each gem has its own col with ids to characterize -->
+                         <div class="col">
                             <div id = "ruby">
-    
                             </div>
                         </div>
-                        <div class="col-sd">
+                        <div class="col">
                              <div id = "sap">
-    
                              </div>
                         </div>
-                         <div class="col-sd">
+                         <div class="col">
                             <div id = "emerald">
-    
                             </div>
                         </div>
-                        <div class="col-sd">
-                            <div id = "plat">
-    
+                        <div class="col">
+                            <div id = "diam">
                             </div>
                         </div>
                 </div>
-    
-        </div>
+                <!-- This is used as a break between the gems and the game play area with title -->
+                <div class = "row">
+                    <div class = "col-md-12">
+                        <h1 class = "head2">Pick your Gem</h1>
+                    </div>
+                </div>
+                <!-- grid1 is a description of event with how to play  -->
+                <div class = "row">
+                    <div class = "col-md-6" id = "grid1">
+                        <p>Greetings Gem Hunter!</p>
+                        <p>After a long deadly war, the priceless gems have scattered throughout the kingdom. With your village in desperate need of resources, get enough gems to win the game.</p>
+                        <p>Match the required number with numbers added from each type of gem. Match the number and you win but if you over your loose. Good Luck</p>
+                    </div>
+                    <!-- grid2 is where the game play happens -->
+                    <div class = "col-md-6" id = "grid2">
+                        <!-- This has the number needed, your current number, reset button, and stats -->
+                        <h4>Required Number: <span id="number-to-guess"></span></h4>
+                        <h4>Your current number: <span id="counter-number"></span></h4>
+                        <button type="button" onclick="reset()">Reset</button>
+                        <h4>Wins: <span id="numWins"></span></h4>
+                        <h4>Loses: <span id="numLose"></span></h4>
+                        <h3 class = "head3"><span id="text1"></span></h3>
+                        <h3 class = "head4"><span id="text2"></span></h3>
+                    </div>
+                </div>
     </div>
     <script src="assets/javascript/game.js">
         
